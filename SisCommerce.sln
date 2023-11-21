@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "back", "back", "{5E52B119-261D-4132-9471-1490324EFD0A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SisCommerceAPI", "back\SisCommerceAPI\SisCommerceAPI.csproj", "{A6818A67-D13A-4184-96EB-2B57494D2D5D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A6818A67-D13A-4184-96EB-2B57494D2D5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6818A67-D13A-4184-96EB-2B57494D2D5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6818A67-D13A-4184-96EB-2B57494D2D5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6818A67-D13A-4184-96EB-2B57494D2D5D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A6818A67-D13A-4184-96EB-2B57494D2D5D} = {5E52B119-261D-4132-9471-1490324EFD0A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DBF8E2E7-3FAC-4E45-A65E-0DF201757A13}
+	EndGlobalSection
+EndGlobal

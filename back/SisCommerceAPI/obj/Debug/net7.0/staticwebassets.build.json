@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "yJKZSzsiWuEcTnVQPQh9ZV3yus41CtEeyY3oUsGO3Vc=",
+  "Source": "SisCommerceAPI",
+  "BasePath": "_content/SisCommerceAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
