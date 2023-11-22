@@ -11,5 +11,4 @@ public class UserDto
     public string Password { get; set; }
     public string PrimeiroNome { get; set; }
     public string UltimoNome { get; set; }
-    public string Name { get; set; }
 }
