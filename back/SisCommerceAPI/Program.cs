@@ -44,6 +44,9 @@ builder.Services.AddScoped<ITokenService, TokenService>();
 builder.Services.AddControllers().AddJsonOptions(x => x.JsonSerializerOptions.Converters.Add(new JsonStringEnumConverter()));
 
 builder.Services.AddEndpointsApiExplorer();
+
+builder.Services.AddCors();
+
 builder.Services.AddSwaggerGen(options => 
     {
         options.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme 
@@ -89,6 +92,8 @@ app.UseHttpsRedirection();
 
 app.UseAuthentication();
 app.UseAuthorization();
+
+app.UseCors(x => x.AllowAnyHeader().AllowAnyMethod().AllowAnyOrigin());
 
 app.MapControllers();
 
