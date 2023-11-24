@@ -1,0 +1,38 @@
+<<div class="page-wrapper">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-12">
+        <div class="card">
+          <div class="card-body">
+            <h4 class="card-title">Entrar com</h4>
+            <form #loginForm="ngForm" class="mt-4" (ngSubmit)="login()">
+              <div class="form-group">
+                <label for="exampleInputEmail1" class="form-label">E-mail</label>
+                <input
+                  [(ngModel)]="model.email"
+                  type="email"
+                  class="form-control"
+                  id="email"
+                  aria-describedby="emailHelp"
+                  placeholder="entre com seu e-mail email">
+                <small id="emailHelp" class="form-text text-muted">Nós não compartilharemos o seu email com ninguém.</small>
+              </div>
+              <div class="form-group">
+                <label for="exampleInputPassword1" class="form-label">Senha</label>
+                <input
+                  [(ngModel)]="model.password"
+                  type="password"
+                  class="form-control"
+                  id="password"
+                  placeholder="Digite sua senha">
+              </div>
+              <button type="submit" class="btn btn-success text-white" style="margin-right: 12px;" [disabled]="loginForm.invalid">Entrar</button>
+              <button type="submit" class="btn btn-dark text-white">Cancelar</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+>
