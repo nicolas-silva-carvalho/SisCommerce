@@ -16,13 +16,13 @@ public class Context : IdentityDbContext<User, Role, int, IdentityUserClaim<int>
     {
         base.OnModelCreating(builder);
 
-        builder.Entity<UserRole>(userRole => 
-        {
-            userRole.HasKey(ur => new { ur.UserId, ur.RoleId}); 
+        // builder.Entity<UserRole>(userRole => 
+        // {
+        //     userRole.HasKey(ur => new { ur.UserId, ur.RoleId}); 
 
-            userRole.HasOne(ur => ur.Role).WithMany(r => r.UserRoles).HasForeignKey(ur => ur.RoleId).IsRequired();
+        //     userRole.HasOne(ur => ur.Role).WithMany(r => r.UserRoles).HasForeignKey(ur => ur.RoleId).IsRequired();
 
-            userRole.HasOne(ur => ur.User).WithMany(r => r.UserRoles).HasForeignKey(ur => ur.UserId).IsRequired();
-        });
+        //     userRole.HasOne(ur => ur.User).WithMany(r => r.UserRoles).HasForeignKey(ur => ur.UserId).IsRequired();
+        // });
     }
 }

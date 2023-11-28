@@ -1,3 +1,4 @@
+import { HttpClientModule } from '@angular/common/http';
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterLink, RouterLinkActive, RouterOutlet } from '@angular/router';
@@ -20,6 +21,7 @@ import { User } from './models/identity/User';
 export class AppComponent {
 
   constructor(public userService: UserServiceService) {}
+  title =  'SisE-Commerce';
 
   setCurrentUser(): void {
     let user: User | null;

@@ -40,4 +40,16 @@ export class UserServiceService {
     localStorage.setItem('user', JSON.stringify(user));
     this.currentUserSource.next(user);
   }
+
+  public registrar(model: any): Observable<void> {
+    return this.http.post<User>(this.baseUrl + 'RegisterUser', model).pipe(
+      take(1),
+      map((response: User) => {
+        const user = response;
+        if (user) {
+          this.setCurrentUser(user)
+        }
+      })
+    );
+  }
 }

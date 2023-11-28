@@ -7,7 +7,7 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace SisCommerceAPI.Migrations
 {
     /// <inheritdoc />
-    public partial class InitialCreate : Migration
+    public partial class PrimeiraMigracao : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -35,8 +35,9 @@ namespace SisCommerceAPI.Migrations
                         .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
                     PrimeiroNome = table.Column<string>(type: "text", nullable: false),
                     UltimoNome = table.Column<string>(type: "text", nullable: false),
+                    Username = table.Column<string>(type: "text", nullable: false),
                     Funcao = table.Column<int>(type: "integer", nullable: false),
-                    ImagemURL = table.Column<string>(type: "text", nullable: false),
+                    ImagemURL = table.Column<string>(type: "text", nullable: true),
                     UserName = table.Column<string>(type: "character varying(256)", maxLength: 256, nullable: true),
                     NormalizedUserName = table.Column<string>(type: "character varying(256)", maxLength: 256, nullable: true),
                     Email = table.Column<string>(type: "character varying(256)", maxLength: 256, nullable: true),
@@ -125,9 +126,8 @@ namespace SisCommerceAPI.Migrations
                 {
                     UserId = table.Column<int>(type: "integer", nullable: false),
                     RoleId = table.Column<int>(type: "integer", nullable: false),
-                    Discriminator = table.Column<string>(type: "text", nullable: false),
-                    UserId1 = table.Column<int>(type: "integer", nullable: true),
-                    RoleId1 = table.Column<int>(type: "integer", nullable: true)
+                    UserId1 = table.Column<int>(type: "integer", nullable: false),
+                    RoleId1 = table.Column<int>(type: "integer", nullable: false)
                 },
                 constraints: table =>
                 {

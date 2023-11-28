@@ -1,8 +1,8 @@
 import { UserServiceService } from './../../../services/UserService.service';
 import { Component, OnInit } from '@angular/core';
 import { UserLogin } from '../../../models/identity/UserLogin';
-import { Router, RouterLink, RouterLinkActive, RouterOutlet } from '@angular/router';
-import { FormGroup, FormsModule } from '@angular/forms';
+import { Router } from '@angular/router';
+import { FormsModule } from '@angular/forms';
 
 @Component({
   selector: 'app-login',
@@ -20,12 +20,12 @@ export class LoginComponent implements OnInit {
   }
 
   public login(): void {
-    this.userService.login(this.model).subscribe(
-      () => { this.router.navigateByUrl('http://localhost:4200/'); },
-      (error: any) => {
-        if (error.status == 401) console.log('erro ao logar');
-        else console.log('erro ao logar');
+    this.userService.login(this.model).subscribe({
+      next: () => { this.router.navigateByUrl('/produtos'); },
+      error: (error: any) => {
+        if (error.status == 401) console.log('Usuário ou senha inválidos');
+        else console.log(error);
       }
-    )
+    })
   }
 }

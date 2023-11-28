@@ -10,6 +10,7 @@
                 <label for="exampleInputEmail1" class="form-label">E-mail</label>
                 <input
                   [(ngModel)]="model.email"
+                  [ngModelOptions]="{ standalone: true }"
                   type="email"
                   class="form-control"
                   id="email"
@@ -21,12 +22,13 @@
                 <label for="exampleInputPassword1" class="form-label">Senha</label>
                 <input
                   [(ngModel)]="model.password"
+                  [ngModelOptions]="{ standalone: true }"
                   type="password"
                   class="form-control"
                   id="password"
                   placeholder="Digite sua senha">
               </div>
-              <button type="submit" class="btn btn-success text-white" style="margin-right: 12px;" [disabled]="loginForm.invalid">Entrar</button>
+              <button type="submit" class="btn btn-success text-white" style="margin-right: 12px;" [disabled]="loginForm.disabled">Entrar</button>
               <button type="submit" class="btn btn-dark text-white">Cancelar</button>
             </form>
           </div>

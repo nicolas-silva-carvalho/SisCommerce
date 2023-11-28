@@ -1,31 +1,46 @@
 <div class="page-wrapper">
   <div class="container-fluid">
+    <div class="row page-titles" style="padding: 1.3em;">
+      <div class="col-md-5 align-self-center">
+          <h4 class="text-themecolor">Cadastro de Usuário</h4>
+      </div>
+  </div>
     <div class="row">
       <div class="col-12">
         <div class="card card-body">
-          <h4 class="card-title">Cadastro de usuário</h4>
           <div class="row">
             <div class="col-sm-12 col-xs-12">
-              <form>
+              <form [formGroup]="form" (ngSubmit)="register()">
                 <div class="form-group">
-                  <label for="exampleInputEmail111" class="form-label">Primeiro nome</label>
-                  <input type="text" class="form-control" id="exampleInputEmail111" placeholder="Digite seu nome">
+                  <label for="primeiroNome" class="form-label" formControlName="primeiroNome">Primeiro nome</label>
+                  <input type="text" class="form-control" id="primeiroNome" placeholder="Digite seu nome" [ngClass]="{'is-invalid': f.primeiroNome.errors && f.primeiroNome.touched}">
+                  <div class="invalid-feedback">
+                    Primeiro Nome é obrigatório.
+                  </div>
                 </div>
                 <div class="form-group">
-                  <label for="exampleInputEmail12" class="form-label">Sobrenome</label>
-                  <input type="email" class="form-control" id="exampleInputEmail12" placeholder="Digite seu sobrenome">
+                  <label for="ultimoNome" class="form-label" formControlName="ultimoNome">Sobrenome</label>
+                  <input type="text" class="form-control" id="ultimoNome" placeholder="Digite seu sobrenome">
                 </div>
                 <div class="form-group">
-                  <label for="exampleInputPassword11" class="form-label">Senha</label>
-                  <input type="password" class="form-control" id="exampleInputPassword11"
+                  <label for="email" class="form-label" formControlName="email">E-mail</label>
+                  <input type="email" class="form-control" id="email" placeholder="Digite seu e-mail">
+                </div>
+                <div class="form-group">
+                  <label for="username" class="form-label" formControlName="username">Nome de usuário</label>
+                  <input type="text" class="form-control" id="username" placeholder="Digite seu nome de usuário">
+                </div>
+                <div class="form-group">
+                  <label for="password" class="form-label" formControlName="password">Senha</label>
+                  <input type="password" class="form-control" id="password"
                     placeholder="Digite sua senha">
                 </div>
                 <div class="form-group">
-                  <label for="exampleInputPassword12" class="form-label">Confirmar senha</label>
-                  <input type="password" class="form-control" id="exampleInputPassword12"
+                  <label for="confirmarSenha" class="form-label" formControlName="confirmarSenha">Confirmar senha</label>
+                  <input type="password" class="form-control" id="confirmarSenha"
                     placeholder="Confirme sua senha">
                 </div>
-                <button type="submit" class="btn btn-success me-2 text-white">Enviar</button>
+                <button type="submit" class="btn btn-success me-2 text-white" type="submit" [disabled]="form.disabled">Cadastrar</button>
                 <a type="submit" class="btn btn-dark">Cancelar</a>
               </form>
             </div>
