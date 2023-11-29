@@ -3,7 +3,6 @@ import { User } from '../../../models/identity/User';
 import { UserServiceService } from '../../../services/UserService.service';
 import { Router, RouterOutlet } from '@angular/router';
 import {
-  AbstractControlOptions,
   FormBuilder,
   FormGroup,
   FormsModule,
@@ -53,7 +52,7 @@ export class RegistrarComponent implements OnInit {
     this.user = { ...this.form.value };
     this.userService.registrar(this.user).subscribe({
       next: () => {
-        this.router.navigateByUrl('/produtos');
+        this.router.navigate(['/produtos']);
       },
       error: (error: any) => {
         if (error.status == 401) console.log('Usuário ou senha inválidos');

@@ -7,8 +7,6 @@ import { NavComponent } from './components/shared/nav/nav.component';
 import { MenuLateralComponent } from './components/shared/menuLateral/menuLateral.component';
 import { UserComponent } from './components/user/user.component';
 import { LoginComponent } from './components/user/login/login.component';
-import { UserServiceService } from './services/UserService.service';
-import { User } from './models/identity/User';
 
 @Component({
   selector: 'app-root',
@@ -20,18 +18,6 @@ import { User } from './models/identity/User';
 
 export class AppComponent {
 
-  constructor(public userService: UserServiceService) {}
+  constructor() {}
   title =  'SisE-Commerce';
-
-  setCurrentUser(): void {
-    let user: User | null;
-
-    if (localStorage.getItem('user'))
-      user = JSON.parse(localStorage.getItem('user') ?? '{}');
-    else
-      user = null
-
-    if (user)
-      this.userService.setCurrentUser(user);
-  }
 }

@@ -68,7 +68,7 @@ public class UsuarioController : ControllerBase
 
             return Ok(new 
             {
-                nome = user.PrimeiroNome,
+                primeiroNome = user.PrimeiroNome,
                 token = _tokenService.CreateToken(user).Result
             });
         }
