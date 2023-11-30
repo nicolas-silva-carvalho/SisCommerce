@@ -1,7 +1,7 @@
 import { CommonModule } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
 import { MenuLateralComponent } from '../shared/menuLateral/menuLateral.component';
-import { UserServiceService } from '../../services/UserService.service';
+import { AccountService } from '../../services/Account.service';
 
 @Component({
   selector: 'app-cardsprodutos',
@@ -12,7 +12,7 @@ import { UserServiceService } from '../../services/UserService.service';
 })
 export class CardsprodutosComponent implements OnInit {
 
-  constructor(public userSerivce: UserServiceService) { }
+  constructor(public accountService: AccountService) { }
 
   ngOnInit() {
   }

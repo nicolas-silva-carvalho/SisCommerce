@@ -1,7 +1,7 @@
 import { CommonModule } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
-import { UserServiceService } from '../../../services/UserService.service';
 import { Router } from '@angular/router';
+import { AccountService } from '../../../services/Account.service';
 
 @Component({
   selector: 'app-menuLateral',
@@ -12,14 +12,14 @@ import { Router } from '@angular/router';
 })
 export class MenuLateralComponent implements OnInit {
 
-  constructor(public userService: UserServiceService, private router: Router) { }
+  constructor(public accoutService: AccountService, private router: Router) { }
 
   ngOnInit() {
   }
 
   logout(): void {
-    this.userService.logout();
-    this.router.navigateByUrl('/');
+    this.accoutService.logout();
+    this.router.navigateByUrl('/user/entrar');
   }
 
 }

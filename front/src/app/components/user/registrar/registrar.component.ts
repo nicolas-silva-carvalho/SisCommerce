@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import { User } from '../../../models/identity/User';
-import { UserServiceService } from '../../../services/UserService.service';
 import { Router, RouterOutlet } from '@angular/router';
 import {
   FormBuilder,
@@ -10,6 +9,7 @@ import {
   Validators,
 } from '@angular/forms';
 import { CommonModule } from '@angular/common';
+import { AccountService } from '../../../services/Account.service';
 
 @Component({
   selector: 'app-registrar',
@@ -23,7 +23,7 @@ export class RegistrarComponent implements OnInit {
   form!: FormGroup;
 
   constructor(
-    private userService: UserServiceService,
+    private accountService: AccountService,
     private router: Router,
     private formBuilder: FormBuilder
   ) {}
@@ -50,7 +50,7 @@ export class RegistrarComponent implements OnInit {
 
   register(): void {
     this.user = { ...this.form.value };
-    this.userService.registrar(this.user).subscribe({
+    this.accountService.registrar(this.user).subscribe({
       next: () => {
         this.router.navigate(['/produtos']);
       },

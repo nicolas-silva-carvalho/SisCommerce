@@ -1,7 +1,7 @@
-import { Component, OnInit, inject } from '@angular/core';
-import { Router, RouterOutlet, Routes, RouterLink, RouterLinkActive } from '@angular/router';
-import { UserServiceService } from '../../../services/UserService.service';
+import { Component, OnInit } from '@angular/core';
+import { Router, RouterOutlet, RouterLink, RouterLinkActive } from '@angular/router';
 import { CommonModule } from '@angular/common';
+import { AccountService } from '../../../services/Account.service';
 
 @Component({
   selector: 'app-nav',
@@ -12,7 +12,7 @@ import { CommonModule } from '@angular/common';
 })
 export class NavComponent implements OnInit {
 
-  constructor(public userService: UserServiceService, private router: Router) { }
+  constructor(private router: Router, public accountService: AccountService) { }
 
   ngOnInit() {
   }

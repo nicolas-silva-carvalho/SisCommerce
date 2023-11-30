@@ -3,5 +3,6 @@
 @import '../src/assets/node_modules/toast-master/css/jquery.toast.css';
 @import '../src/crm/dist/css/style.min.css';
 @import '../src/crm/dist/css/pages/dashboard1.css';
+@import '../node_modules/ngx-toastr/toastr';
 /* html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; } */

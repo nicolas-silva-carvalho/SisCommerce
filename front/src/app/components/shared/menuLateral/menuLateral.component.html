@@ -3,7 +3,7 @@
     <div class="user-profile">
       <div class="user-pro-body">
         <div><img src="../assets/images/114532361.jpg" alt="user-img" class="img-circle"></div>
-        <div class="dropdown" *ngIf="(userService.currentUser$ | async) as user">
+        <div class="dropdown" *ngIf="(accoutService.currentUser$ | async) as user">
           <a href="javascript:void(0)" class="dropdown-toggle u-dropdown link hide-menu" data-bs-toggle="dropdown"
             role="button" aria-haspopup="true" aria-expanded="false">{{ user.primeiroNome | titlecase }}<span class="caret">{{ user.username | titlecase }}</span></a>
           <div class="dropdown-menu animated flipInY">

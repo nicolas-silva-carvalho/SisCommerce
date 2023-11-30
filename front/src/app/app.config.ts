@@ -1,4 +1,4 @@
-import { authGuard } from './guard/auth.guard';
+import { provideToastr } from 'ngx-toastr';
 import { ApplicationConfig, importProvidersFrom } from '@angular/core';
 import { provideRouter } from '@angular/router';
 
@@ -11,5 +11,5 @@ import { jwtInterceptor } from './interceptors/jwt.interceptor';
 export const appConfig: ApplicationConfig = {
   providers: [provideRouter(routes), provideClientHydration(),
     provideAnimations(), provideHttpClient(withFetch(), withInterceptors([jwtInterceptor])),
-    importProvidersFrom()]
+    importProvidersFrom(), provideToastr()]
 };
