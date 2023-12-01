@@ -87,4 +87,9 @@ export class AccountService {
       })
     );
   }
+
+  IsLogged() {
+    let user = localStorage.getItem('user');
+    return user !== null ? true : false;
+  }
 }

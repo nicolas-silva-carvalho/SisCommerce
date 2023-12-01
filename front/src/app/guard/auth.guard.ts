@@ -5,11 +5,12 @@ import { AccountService } from '../services/Account.service';
 export const authGuard: CanActivateFn = (route, state) => {
   const router = inject(Router);
   const accountService = inject(AccountService);
-  const user = accountService.userValue
-  if (user) {
-    return true
+  const user = accountService.IsLogged();
+  console.log(user);
+  if (!user) {
+    return true;
   }
 
-  router.navigate(['/user/entrar']);
+  router.navigate(['/produtos']);
   return false;
 };

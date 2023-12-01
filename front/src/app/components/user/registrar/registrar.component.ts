@@ -1,11 +1,16 @@
+import { ToastrService } from 'ngx-toastr';
 import { Component, OnInit } from '@angular/core';
 import { User } from '../../../models/identity/User';
 import { Router, RouterOutlet } from '@angular/router';
 import {
+  AbstractControl,
+  AbstractControlOptions,
   FormBuilder,
   FormGroup,
   FormsModule,
   ReactiveFormsModule,
+  ValidationErrors,
+  ValidatorFn,
   Validators,
 } from '@angular/forms';
 import { CommonModule } from '@angular/common';
@@ -25,7 +30,8 @@ export class RegistrarComponent implements OnInit {
   constructor(
     private accountService: AccountService,
     private router: Router,
-    private formBuilder: FormBuilder
+    private formBuilder: FormBuilder,
+    private toastr: ToastrService
   ) {}
 
   get f(): any {
@@ -38,25 +44,26 @@ export class RegistrarComponent implements OnInit {
 
   private validation(): void {
 
-    this.form = this.formBuilder.group({
-      email: ['', Validators.required],
-      password: ['', [Validators.required, Validators.minLength(4)]],
-      username: ['', Validators.required],
-      primeiroNome: ['', Validators.required],
-      ultimoNome: ['', Validators.required],
-      confirmarSenha: ['', [Validators.required, Validators.minLength(4)]]
-    });
+    this.form = this.formBuilder.group(
+      {
+        email: ['', Validators.required],
+        password: ['', [Validators.required, Validators.minLength(4)]],
+        username: ['', Validators.required],
+        primeiroNome: ['', Validators.required],
+        ultimoNome: ['', Validators.required],
+        confirmarSenha: ['', [Validators.required, Validators.minLength(4)]],
+      });
   }
 
   register(): void {
     this.user = { ...this.form.value };
     this.accountService.registrar(this.user).subscribe({
       next: () => {
+        this.toastr.success('Usuário cadastrado com sucesso!');
         this.router.navigate(['/produtos']);
       },
       error: (error: any) => {
-        if (error.status == 401) console.log('Usuário ou senha inválidos');
-        else console.log(error);
+       this.toastr.error(error);
       },
     });
   }
