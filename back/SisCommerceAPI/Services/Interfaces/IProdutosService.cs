@@ -1,16 +1,15 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using SisCommerceAPI.Models;
 using SisCommerceAPI.Models.Dto;
+using SisCommerceAPI.Models.Entidades;
 
 namespace SisCommerceAPI.Services.Interfaces;
 
 public interface IProdutosService
 {
     Task<Produto> GetProdutoByIdAsync(int produtoId);
-    Task<ProdutoDto> UploadProduto(int produtoId, Produto produto);
     void DeleteImage(string imageName);
     Task<string> SaveImage(IFormFile formFile);
+    Task<Produto> AddProdutoAsync(Produto produto);
+    Task<Produto> UpdateProdutoAsync(Produto produto, int produtoId);
+    Task<bool> RemoveProdutoAsync(int produtoId);
+    Task<List<Produto>> GetProdutosAsync();
 }

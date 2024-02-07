@@ -2,6 +2,7 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using SisCommerceAPI.Models;
+using SisCommerceAPI.Models.Entidades;
 using SisCommerceAPI.Models.Identity;
 
 namespace SisCommerceAPI.DataBase;
@@ -11,6 +12,7 @@ public class Context : IdentityDbContext<User, Role, int, IdentityUserClaim<int>
     public Context(DbContextOptions options) : base(options)
     {
     }
+    public DbSet<Produto> Produtos { get; set; }
 
     protected override void OnModelCreating(ModelBuilder builder)
     {

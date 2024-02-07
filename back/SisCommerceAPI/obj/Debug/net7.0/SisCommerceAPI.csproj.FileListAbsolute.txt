@@ -59,3 +59,4 @@ C:\Users\nicolas.carvalho\Desktop\SisCommerce\back\SisCommerceAPI\bin\Debug\net7
 C:\Users\nicolas.carvalho\Desktop\SisCommerce\back\SisCommerceAPI\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
 C:\Users\nicolas.carvalho\Desktop\SisCommerce\back\SisCommerceAPI\bin\Debug\net7.0\System.Security.Permissions.dll
 C:\Users\nicolas.carvalho\Desktop\SisCommerce\back\SisCommerceAPI\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\nicolas.carvalho\Desktop\SisCommerce\back\SisCommerceAPI\bin\Debug\net7.0\SisCommerceAPI.staticwebassets.runtime.json

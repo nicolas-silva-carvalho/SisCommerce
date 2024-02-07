@@ -1,9 +1,7 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using SisCommerceAPI.Models;
+using Microsoft.EntityFrameworkCore;
+using SisCommerceAPI.DataBase;
 using SisCommerceAPI.Models.Dto;
+using SisCommerceAPI.Models.Entidades;
 using SisCommerceAPI.Services.Interfaces;
 
 namespace SisCommerceAPI.Services
@@ -11,10 +9,12 @@ namespace SisCommerceAPI.Services
     public class ProdutoService : IProdutosService
     {
         private readonly IWebHostEnvironment _hostEnvironment;
+        private readonly Context _context;
         
-        public ProdutoService(IWebHostEnvironment hostEnvironment)
+        public ProdutoService(IWebHostEnvironment hostEnvironment, Context context)
         {
             _hostEnvironment = hostEnvironment;
+            _context = context;
         }
 
         public async Task<string> SaveImage(IFormFile formFile)
@@ -41,14 +41,79 @@ namespace SisCommerceAPI.Services
                 System.IO.File.Delete(imagePath);
         }
 
-        public Task<Produto> GetProdutoByIdAsync(int produtoId)
+        public async Task<Produto> GetProdutoByIdAsync(int produtoId)
         {
-            throw new NotImplementedException();
+            var produto = await _context.Produtos.FirstOrDefaultAsync(p => p.Id == produtoId);
+
+            if (produto == null ) throw new Exception("Produto não encontrado");
+
+            return produto;
         }
 
-        public Task<ProdutoDto> UploadProduto(int produtoId, Produto produto)
+        public async Task<Produto> AddProdutoAsync(Produto produto)
         {
-            throw new NotImplementedException();
+            try
+            {
+                var produtoContext = await GetProdutoByIdAsync(produto.Id);
+
+                if (produtoContext == null) throw new Exception("Produto não encontrado");
+
+                _context.Produtos.Add(produto);
+                await _context.SaveChangesAsync();
+
+                return produto;
+            }
+            catch (System.Exception)
+            {
+                throw;
+            }
+        }
+
+        public async Task<Produto> UpdateProdutoAsync(Produto produto, int produtoId)
+        {
+            try
+            {
+                var produtoContext = await GetProdutoByIdAsync(produto.Id);
+
+                if (produtoContext == null) throw new Exception("Produto não encontrado");
+
+                produto.Id = produtoContext.Id;
+
+                _context.Update(produto);
+                await _context.SaveChangesAsync();
+
+                return produto;
+            }
+            catch (System.Exception)
+            {
+                
+                throw;
+            }
+        }
+
+        public async Task<bool> RemoveProdutoAsync(int produtoId)
+        {
+            try
+            {
+                var produto = await GetProdutoByIdAsync(produtoId);
+
+                if (produto == null) throw new Exception("Produto não encontrado");
+
+                _context.Remove(produto);
+                await _context.SaveChangesAsync();
+
+                return true;
+            }
+            catch (System.Exception)
+            {
+                
+                throw;
+            }
+        }
+
+        public async Task<List<Produto>> GetProdutosAsync()
+        {
+            return await _context.Produtos.ToListAsync();
         }
     }
 }
