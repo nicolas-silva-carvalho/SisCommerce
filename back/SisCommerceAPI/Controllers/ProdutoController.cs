@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using SisCommerceAPI.Models.Entidades;
 using SisCommerceAPI.Services.Interfaces;
 
 namespace SisCommerceAPI.Controllers;
@@ -71,11 +72,28 @@ public class ProdutoController : ControllerBase
 
     [HttpGet]
     [AllowAnonymous]
-    public async Task<IActionResult> GetProduto(int produtoId)
+    public async Task<IActionResult> GetProdutoById(int produtoId)
     {
         try
         {
             var produto = await _produtoService.GetProdutoByIdAsync(produtoId);
+
+            return Ok(produto);
+        }
+        catch (System.Exception)
+        {
+            
+            throw;
+        }
+    }
+
+    [HttpGet("produtos")]
+    [AllowAnonymous]
+    public async Task<ActionResult<List<Produto>>> GetListProduto()
+    {
+        try
+        {
+            var produto = await _produtoService.GetProdutosAsync();
 
             return Ok(produto);
         }
