@@ -1,19 +1,11 @@
 {
   "Version": 1,
-  "Hash": "yDZlCdatDCRP7WXJdQdLDJf2MmkX4tUTI+xEHmeYKag=",
+  "Hash": "yJKZSzsiWuEcTnVQPQh9ZV3yus41CtEeyY3oUsGO3Vc=",
   "Source": "SisCommerceAPI",
   "BasePath": "_content/SisCommerceAPI",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [
-    {
-      "Name": "SisCommerceAPI\\wwwroot",
-      "Source": "SisCommerceAPI",
-      "ContentRoot": "C:\\Users\\nicolas.carvalho\\Desktop\\SisCommerce\\back\\SisCommerceAPI\\wwwroot\\",
-      "BasePath": "_content/SisCommerceAPI",
-      "Pattern": "**"
-    }
-  ],
+  "DiscoveryPatterns": [],
   "Assets": []
 }

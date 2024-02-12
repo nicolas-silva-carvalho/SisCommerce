@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, EventEmitter, OnInit, Output } from '@angular/core';
 import { Router, RouterOutlet, RouterLink, RouterLinkActive } from '@angular/router';
 import { CommonModule } from '@angular/common';
 import { AccountService } from '../../../services/Account.service';
@@ -16,6 +16,4 @@ export class NavComponent implements OnInit {
 
   ngOnInit() {
   }
-
-
 }

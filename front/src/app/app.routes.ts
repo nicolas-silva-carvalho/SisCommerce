@@ -10,8 +10,8 @@ export const routes: Routes = [
     path: 'user', component: UserComponent,
     children: [
       {path: 'registrar', component: RegistrarComponent},
-      {path: 'entrar', component: LoginComponent, canActivate : [authGuard]}
-    ], canActivate : [authGuard]
+      {path: 'entrar', component: LoginComponent}
+    ]
   },
   { path: 'produtos', component: CardsprodutosComponent}
 ];

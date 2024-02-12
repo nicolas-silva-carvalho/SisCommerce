@@ -1,4 +1,4 @@
-<nav class="navbar top-navbar navbar-expand-md navbar-dark">
+<!-- <nav class="navbar top-navbar navbar-expand-md navbar-dark">
   <div class="navbar-collapse align-items-baseline">
     <ul class="navbar-nav me-auto">
       <li class="nav-item">
@@ -8,6 +8,33 @@
       </li>
     </ul>
     <ul class="d-flex list-unstyled" *ngIf="(accountService.currentUser$ | async) == null">
+      <li class="nav-item disabled">
+          <a class="nav-link waves-effect waves-dark btn btn-success me-2 text-white" routerLink="/user/entrar" routerLinkActive="active">Entrar</a>
+      </li>
+      <li class="nav-item">
+        <a class="btn btn-dark me-2 text-white nav-link waves-effect waves-dark" routerLink="/user/registrar" routerLinkActive="active">Registrar</a>
+      </li>
+    </ul>
+  </div>
+</nav> -->
+
+<nav class="navbar top-navbar navbar-expand-md navbar-dark">
+  <div class="navbar-header">
+    <a class="navbar-brand" style="margin-left: 26px;" href="index.html">
+      <b><span>Sis-Ecommerce</span></b></a>
+  </div>
+  <div class="navbar-collapse">
+    <ul class="navbar-nav me-auto">
+      <li class="nav-item"> <a class="nav-link nav-toggler d-block d-md-none waves-effect waves-dark"
+          href="javascript:void(0)"><i class="ti-menu"></i></a> </li>
+
+      <li class="nav-item">
+        <form class="app-search d-none d-md-block d-lg-block">
+          <input type="text" class="form-control" style="margin-left: 16px;" placeholder="Pesquise e Entre">
+        </form>
+      </li>
+    </ul>
+    <ul class="d-flex list-unstyled" style="margin-top: 6px;" *ngIf="(accountService.currentUser$ | async) == null">
       <li class="nav-item disabled">
           <a class="nav-link waves-effect waves-dark btn btn-success me-2 text-white" routerLink="/user/entrar" routerLinkActive="active">Entrar</a>
       </li>

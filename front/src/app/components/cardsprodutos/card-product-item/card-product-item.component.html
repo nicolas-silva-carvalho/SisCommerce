@@ -1,11 +1,15 @@
-<div class="col-lg-3 col-md-6 mb-5">
-  <div class="card h-100">
-    <img class="card-img-top img-responsive" src='{{"../../../../../../../../back/SisCommerceAPI/Resources/Images/" + produto.imagemURL}}' alt="Card image cap">
-    <div class="card-body">
-      <h4 class="card-title">{{produto.nome}}</h4>
-      <p class="card-text">{{produto.descricao}}</p>
-      <p class="card-text">{{produto.preco}}</p>
-      <a href="javascript:void(0)" class="btn btn-primary text-white">Comprar</a>
+<div class="row">
+  <div class="col-lg-3 col-md-6 mb-4" *ngFor="let produto of produtos">
+    <div class="card h-100">
+      <img class="card-img-top" src='{{"http://localhost:5158/resources/images/" + produto.imagemURL}}' alt="Card image cap" style="height: 200px; object-fit: cover;">
+      <div class="card-body" style="min-height: 100px;">
+        <h5 class="card-title">{{produto.nome}}</h5>
+        <p class="card-text" style="height: 110px; overflow: hidden;">{{produto.descricao}}</p>
+      </div>
+      <div class="card-footer text-center" style="padding: 23px;">
+        <p class="card-title">{{produto.preco | currency : 'BRL'}}</p>
+        <a href="javascript:void(0)" class="btn btn-primary text-white">Comprar</a>
+      </div>
     </div>
   </div>
 </div>

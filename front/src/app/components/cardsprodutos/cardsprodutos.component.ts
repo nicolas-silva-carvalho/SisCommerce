@@ -11,22 +11,16 @@ import { CardProductItemComponent } from './card-product-item/card-product-item.
   templateUrl: './cardsprodutos.component.html',
   styleUrls: ['./cardsprodutos.component.css'],
   standalone: true,
-  imports: [MenuLateralComponent, CommonModule, FooterComponent, CardProductItemComponent]
+  imports: [MenuLateralComponent, CommonModule, CardProductItemComponent]
 })
 export class CardsprodutosComponent implements OnInit {
 
-  produtos: any;
 
-  constructor(private productService: ProductService, public accountService: AccountService) { }
+  constructor( public accountService: AccountService) {
 
-  ngOnInit() {
-    this.produtosAsync();
   }
 
-  public produtosAsync(): void {
-    this.produtos = this.productService.getProducts().subscribe((data => {
-      this.produtos;
-      console.log(this.produtos);
-    }));
+  ngOnInit() {
+
   }
 }

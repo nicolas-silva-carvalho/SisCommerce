@@ -1,62 +1,61 @@
-C:\Users\nicolas.carvalho\Desktop\SisCommerce\back\SisCommerceAPI\bin\Debug\net7.0\appsettings.Development.json
-C:\Users\nicolas.carvalho\Desktop\SisCommerce\back\SisCommerceAPI\bin\Debug\net7.0\appsettings.json
-C:\Users\nicolas.carvalho\Desktop\SisCommerce\back\SisCommerceAPI\bin\Debug\net7.0\SisCommerceAPI.exe
-C:\Users\nicolas.carvalho\Desktop\SisCommerce\back\SisCommerceAPI\bin\Debug\net7.0\SisCommerceAPI.deps.json
-C:\Users\nicolas.carvalho\Desktop\SisCommerce\back\SisCommerceAPI\bin\Debug\net7.0\SisCommerceAPI.runtimeconfig.json
-C:\Users\nicolas.carvalho\Desktop\SisCommerce\back\SisCommerceAPI\bin\Debug\net7.0\SisCommerceAPI.dll
-C:\Users\nicolas.carvalho\Desktop\SisCommerce\back\SisCommerceAPI\bin\Debug\net7.0\SisCommerceAPI.pdb
-C:\Users\nicolas.carvalho\Desktop\SisCommerce\back\SisCommerceAPI\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
-C:\Users\nicolas.carvalho\Desktop\SisCommerce\back\SisCommerceAPI\bin\Debug\net7.0\Microsoft.OpenApi.dll
-C:\Users\nicolas.carvalho\Desktop\SisCommerce\back\SisCommerceAPI\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
-C:\Users\nicolas.carvalho\Desktop\SisCommerce\back\SisCommerceAPI\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
-C:\Users\nicolas.carvalho\Desktop\SisCommerce\back\SisCommerceAPI\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-C:\Users\nicolas.carvalho\Desktop\SisCommerce\back\SisCommerceAPI\obj\Debug\net7.0\SisCommerceAPI.csproj.AssemblyReference.cache
-C:\Users\nicolas.carvalho\Desktop\SisCommerce\back\SisCommerceAPI\obj\Debug\net7.0\SisCommerceAPI.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\nicolas.carvalho\Desktop\SisCommerce\back\SisCommerceAPI\obj\Debug\net7.0\SisCommerceAPI.AssemblyInfoInputs.cache
-C:\Users\nicolas.carvalho\Desktop\SisCommerce\back\SisCommerceAPI\obj\Debug\net7.0\SisCommerceAPI.AssemblyInfo.cs
-C:\Users\nicolas.carvalho\Desktop\SisCommerce\back\SisCommerceAPI\obj\Debug\net7.0\SisCommerceAPI.csproj.CoreCompileInputs.cache
-C:\Users\nicolas.carvalho\Desktop\SisCommerce\back\SisCommerceAPI\obj\Debug\net7.0\SisCommerceAPI.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\nicolas.carvalho\Desktop\SisCommerce\back\SisCommerceAPI\obj\Debug\net7.0\SisCommerceAPI.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\nicolas.carvalho\Desktop\SisCommerce\back\SisCommerceAPI\obj\Debug\net7.0\staticwebassets\msbuild.SisCommerceAPI.Microsoft.AspNetCore.StaticWebAssets.props
-C:\Users\nicolas.carvalho\Desktop\SisCommerce\back\SisCommerceAPI\obj\Debug\net7.0\staticwebassets\msbuild.build.SisCommerceAPI.props
-C:\Users\nicolas.carvalho\Desktop\SisCommerce\back\SisCommerceAPI\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.SisCommerceAPI.props
-C:\Users\nicolas.carvalho\Desktop\SisCommerce\back\SisCommerceAPI\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.SisCommerceAPI.props
-C:\Users\nicolas.carvalho\Desktop\SisCommerce\back\SisCommerceAPI\obj\Debug\net7.0\staticwebassets.pack.json
-C:\Users\nicolas.carvalho\Desktop\SisCommerce\back\SisCommerceAPI\obj\Debug\net7.0\staticwebassets.build.json
-C:\Users\nicolas.carvalho\Desktop\SisCommerce\back\SisCommerceAPI\obj\Debug\net7.0\staticwebassets.development.json
-C:\Users\nicolas.carvalho\Desktop\SisCommerce\back\SisCommerceAPI\obj\Debug\net7.0\scopedcss\bundle\SisCommerceAPI.styles.css
-C:\Users\nicolas.carvalho\Desktop\SisCommerce\back\SisCommerceAPI\obj\Debug\net7.0\SisCommerceAPI.csproj.CopyComplete
-C:\Users\nicolas.carvalho\Desktop\SisCommerce\back\SisCommerceAPI\obj\Debug\net7.0\SisCommerceAPI.dll
-C:\Users\nicolas.carvalho\Desktop\SisCommerce\back\SisCommerceAPI\obj\Debug\net7.0\refint\SisCommerceAPI.dll
-C:\Users\nicolas.carvalho\Desktop\SisCommerce\back\SisCommerceAPI\obj\Debug\net7.0\SisCommerceAPI.pdb
-C:\Users\nicolas.carvalho\Desktop\SisCommerce\back\SisCommerceAPI\obj\Debug\net7.0\SisCommerceAPI.genruntimeconfig.cache
-C:\Users\nicolas.carvalho\Desktop\SisCommerce\back\SisCommerceAPI\obj\Debug\net7.0\ref\SisCommerceAPI.dll
-C:\Users\nicolas.carvalho\Desktop\SisCommerce\back\SisCommerceAPI\bin\Debug\net7.0\AutoMapper.dll
-C:\Users\nicolas.carvalho\Desktop\SisCommerce\back\SisCommerceAPI\bin\Debug\net7.0\Humanizer.dll
-C:\Users\nicolas.carvalho\Desktop\SisCommerce\back\SisCommerceAPI\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
-C:\Users\nicolas.carvalho\Desktop\SisCommerce\back\SisCommerceAPI\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
-C:\Users\nicolas.carvalho\Desktop\SisCommerce\back\SisCommerceAPI\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
-C:\Users\nicolas.carvalho\Desktop\SisCommerce\back\SisCommerceAPI\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
-C:\Users\nicolas.carvalho\Desktop\SisCommerce\back\SisCommerceAPI\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
-C:\Users\nicolas.carvalho\Desktop\SisCommerce\back\SisCommerceAPI\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
-C:\Users\nicolas.carvalho\Desktop\SisCommerce\back\SisCommerceAPI\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
-C:\Users\nicolas.carvalho\Desktop\SisCommerce\back\SisCommerceAPI\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
-C:\Users\nicolas.carvalho\Desktop\SisCommerce\back\SisCommerceAPI\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
-C:\Users\nicolas.carvalho\Desktop\SisCommerce\back\SisCommerceAPI\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
-C:\Users\nicolas.carvalho\Desktop\SisCommerce\back\SisCommerceAPI\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
-C:\Users\nicolas.carvalho\Desktop\SisCommerce\back\SisCommerceAPI\bin\Debug\net7.0\Mono.TextTemplating.dll
-C:\Users\nicolas.carvalho\Desktop\SisCommerce\back\SisCommerceAPI\bin\Debug\net7.0\Newtonsoft.Json.dll
-C:\Users\nicolas.carvalho\Desktop\SisCommerce\back\SisCommerceAPI\bin\Debug\net7.0\Npgsql.dll
-C:\Users\nicolas.carvalho\Desktop\SisCommerce\back\SisCommerceAPI\bin\Debug\net7.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
-C:\Users\nicolas.carvalho\Desktop\SisCommerce\back\SisCommerceAPI\bin\Debug\net7.0\System.CodeDom.dll
-C:\Users\nicolas.carvalho\Desktop\SisCommerce\back\SisCommerceAPI\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
-C:\Users\nicolas.carvalho\Desktop\SisCommerce\back\SisCommerceAPI\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
-C:\Users\nicolas.carvalho\Desktop\SisCommerce\back\SisCommerceAPI\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
-C:\Users\nicolas.carvalho\Desktop\SisCommerce\back\SisCommerceAPI\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
-C:\Users\nicolas.carvalho\Desktop\SisCommerce\back\SisCommerceAPI\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
-C:\Users\nicolas.carvalho\Desktop\SisCommerce\back\SisCommerceAPI\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-C:\Users\nicolas.carvalho\Desktop\SisCommerce\back\SisCommerceAPI\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
-C:\Users\nicolas.carvalho\Desktop\SisCommerce\back\SisCommerceAPI\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
-C:\Users\nicolas.carvalho\Desktop\SisCommerce\back\SisCommerceAPI\bin\Debug\net7.0\System.Security.Permissions.dll
-C:\Users\nicolas.carvalho\Desktop\SisCommerce\back\SisCommerceAPI\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
-C:\Users\nicolas.carvalho\Desktop\SisCommerce\back\SisCommerceAPI\bin\Debug\net7.0\SisCommerceAPI.staticwebassets.runtime.json
+C:\Users\Nicol\OneDrive\Área de Trabalho\SisCommerce\back\SisCommerceAPI\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\Nicol\OneDrive\Área de Trabalho\SisCommerce\back\SisCommerceAPI\bin\Debug\net7.0\appsettings.json
+C:\Users\Nicol\OneDrive\Área de Trabalho\SisCommerce\back\SisCommerceAPI\bin\Debug\net7.0\SisCommerceAPI.exe
+C:\Users\Nicol\OneDrive\Área de Trabalho\SisCommerce\back\SisCommerceAPI\bin\Debug\net7.0\SisCommerceAPI.deps.json
+C:\Users\Nicol\OneDrive\Área de Trabalho\SisCommerce\back\SisCommerceAPI\bin\Debug\net7.0\SisCommerceAPI.runtimeconfig.json
+C:\Users\Nicol\OneDrive\Área de Trabalho\SisCommerce\back\SisCommerceAPI\bin\Debug\net7.0\SisCommerceAPI.dll
+C:\Users\Nicol\OneDrive\Área de Trabalho\SisCommerce\back\SisCommerceAPI\bin\Debug\net7.0\SisCommerceAPI.pdb
+C:\Users\Nicol\OneDrive\Área de Trabalho\SisCommerce\back\SisCommerceAPI\bin\Debug\net7.0\AutoMapper.dll
+C:\Users\Nicol\OneDrive\Área de Trabalho\SisCommerce\back\SisCommerceAPI\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\Nicol\OneDrive\Área de Trabalho\SisCommerce\back\SisCommerceAPI\bin\Debug\net7.0\Humanizer.dll
+C:\Users\Nicol\OneDrive\Área de Trabalho\SisCommerce\back\SisCommerceAPI\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Nicol\OneDrive\Área de Trabalho\SisCommerce\back\SisCommerceAPI\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\Nicol\OneDrive\Área de Trabalho\SisCommerce\back\SisCommerceAPI\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\Nicol\OneDrive\Área de Trabalho\SisCommerce\back\SisCommerceAPI\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\Nicol\OneDrive\Área de Trabalho\SisCommerce\back\SisCommerceAPI\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\Nicol\OneDrive\Área de Trabalho\SisCommerce\back\SisCommerceAPI\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Nicol\OneDrive\Área de Trabalho\SisCommerce\back\SisCommerceAPI\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Nicol\OneDrive\Área de Trabalho\SisCommerce\back\SisCommerceAPI\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Nicol\OneDrive\Área de Trabalho\SisCommerce\back\SisCommerceAPI\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Nicol\OneDrive\Área de Trabalho\SisCommerce\back\SisCommerceAPI\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Nicol\OneDrive\Área de Trabalho\SisCommerce\back\SisCommerceAPI\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\Nicol\OneDrive\Área de Trabalho\SisCommerce\back\SisCommerceAPI\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\Nicol\OneDrive\Área de Trabalho\SisCommerce\back\SisCommerceAPI\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+C:\Users\Nicol\OneDrive\Área de Trabalho\SisCommerce\back\SisCommerceAPI\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Nicol\OneDrive\Área de Trabalho\SisCommerce\back\SisCommerceAPI\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Nicol\OneDrive\Área de Trabalho\SisCommerce\back\SisCommerceAPI\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Nicol\OneDrive\Área de Trabalho\SisCommerce\back\SisCommerceAPI\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Nicol\OneDrive\Área de Trabalho\SisCommerce\back\SisCommerceAPI\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Nicol\OneDrive\Área de Trabalho\SisCommerce\back\SisCommerceAPI\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Nicol\OneDrive\Área de Trabalho\SisCommerce\back\SisCommerceAPI\bin\Debug\net7.0\Microsoft.OpenApi.dll
+C:\Users\Nicol\OneDrive\Área de Trabalho\SisCommerce\back\SisCommerceAPI\bin\Debug\net7.0\Mono.TextTemplating.dll
+C:\Users\Nicol\OneDrive\Área de Trabalho\SisCommerce\back\SisCommerceAPI\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Users\Nicol\OneDrive\Área de Trabalho\SisCommerce\back\SisCommerceAPI\bin\Debug\net7.0\Npgsql.dll
+C:\Users\Nicol\OneDrive\Área de Trabalho\SisCommerce\back\SisCommerceAPI\bin\Debug\net7.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\Users\Nicol\OneDrive\Área de Trabalho\SisCommerce\back\SisCommerceAPI\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Nicol\OneDrive\Área de Trabalho\SisCommerce\back\SisCommerceAPI\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Nicol\OneDrive\Área de Trabalho\SisCommerce\back\SisCommerceAPI\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Nicol\OneDrive\Área de Trabalho\SisCommerce\back\SisCommerceAPI\bin\Debug\net7.0\System.CodeDom.dll
+C:\Users\Nicol\OneDrive\Área de Trabalho\SisCommerce\back\SisCommerceAPI\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Nicol\OneDrive\Área de Trabalho\SisCommerce\back\SisCommerceAPI\bin\Debug\net7.0\System.Security.Permissions.dll
+C:\Users\Nicol\OneDrive\Área de Trabalho\SisCommerce\back\SisCommerceAPI\obj\Debug\net7.0\SisCommerceAPI.csproj.AssemblyReference.cache
+C:\Users\Nicol\OneDrive\Área de Trabalho\SisCommerce\back\SisCommerceAPI\obj\Debug\net7.0\SisCommerceAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nicol\OneDrive\Área de Trabalho\SisCommerce\back\SisCommerceAPI\obj\Debug\net7.0\SisCommerceAPI.AssemblyInfoInputs.cache
+C:\Users\Nicol\OneDrive\Área de Trabalho\SisCommerce\back\SisCommerceAPI\obj\Debug\net7.0\SisCommerceAPI.AssemblyInfo.cs
+C:\Users\Nicol\OneDrive\Área de Trabalho\SisCommerce\back\SisCommerceAPI\obj\Debug\net7.0\SisCommerceAPI.csproj.CoreCompileInputs.cache
+C:\Users\Nicol\OneDrive\Área de Trabalho\SisCommerce\back\SisCommerceAPI\obj\Debug\net7.0\SisCommerceAPI.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Nicol\OneDrive\Área de Trabalho\SisCommerce\back\SisCommerceAPI\obj\Debug\net7.0\SisCommerceAPI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Nicol\OneDrive\Área de Trabalho\SisCommerce\back\SisCommerceAPI\obj\Debug\net7.0\staticwebassets\msbuild.SisCommerceAPI.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Nicol\OneDrive\Área de Trabalho\SisCommerce\back\SisCommerceAPI\obj\Debug\net7.0\staticwebassets\msbuild.build.SisCommerceAPI.props
+C:\Users\Nicol\OneDrive\Área de Trabalho\SisCommerce\back\SisCommerceAPI\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.SisCommerceAPI.props
+C:\Users\Nicol\OneDrive\Área de Trabalho\SisCommerce\back\SisCommerceAPI\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.SisCommerceAPI.props
+C:\Users\Nicol\OneDrive\Área de Trabalho\SisCommerce\back\SisCommerceAPI\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\Nicol\OneDrive\Área de Trabalho\SisCommerce\back\SisCommerceAPI\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\Nicol\OneDrive\Área de Trabalho\SisCommerce\back\SisCommerceAPI\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\Nicol\OneDrive\Área de Trabalho\SisCommerce\back\SisCommerceAPI\obj\Debug\net7.0\scopedcss\bundle\SisCommerceAPI.styles.css
+C:\Users\Nicol\OneDrive\Área de Trabalho\SisCommerce\back\SisCommerceAPI\obj\Debug\net7.0\SisCommerceAPI.csproj.CopyComplete
+C:\Users\Nicol\OneDrive\Área de Trabalho\SisCommerce\back\SisCommerceAPI\obj\Debug\net7.0\SisCommerceAPI.dll
+C:\Users\Nicol\OneDrive\Área de Trabalho\SisCommerce\back\SisCommerceAPI\obj\Debug\net7.0\refint\SisCommerceAPI.dll
+C:\Users\Nicol\OneDrive\Área de Trabalho\SisCommerce\back\SisCommerceAPI\obj\Debug\net7.0\SisCommerceAPI.pdb
+C:\Users\Nicol\OneDrive\Área de Trabalho\SisCommerce\back\SisCommerceAPI\obj\Debug\net7.0\SisCommerceAPI.genruntimeconfig.cache
+C:\Users\Nicol\OneDrive\Área de Trabalho\SisCommerce\back\SisCommerceAPI\obj\Debug\net7.0\ref\SisCommerceAPI.dll
